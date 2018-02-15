@@ -4,7 +4,7 @@ html {
   height: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Muli','Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Muli', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .bg-primary {
