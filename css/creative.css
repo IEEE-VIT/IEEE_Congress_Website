@@ -14,18 +14,19 @@ hr {
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: #3949ab !important;
 }
 
 a {
-  color: #F05F40;
+  color: #ffffff !important;
+  font-size: 16px !important;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: blue;
 }
 
 h1,
@@ -37,8 +38,24 @@ h6 {
   font-family: 'Muli', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.bg-primary {
-  background-color: #F05F40 !important;
+.c1 {
+
+    background-image: url("../img/im2.jpg")	!important ;
+    /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   padding: 25px;
+
+
+  font-family: 'Philosopher', sans-serif;
+  color: black !important;
+  font-size: 20px;
+  margin: 0;
 }
 
 .bg-dark {
@@ -56,6 +73,7 @@ section {
 .section-heading {
   margin-top: 0;
 }
+
 
 ::-moz-selection {
   color: #fff;
@@ -81,7 +99,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #000;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -90,13 +108,15 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   font-weight: 700;
+  font-size: 25px !important;
   text-transform: uppercase;
-  color: #F05F40;
+  color: white !important;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  font-size: 27px !important;
+  color:white  !important;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -146,7 +166,7 @@ img::-moz-selection {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    border-bottom: 1px solid rgba(33, 37, 41, 0.5);
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -232,7 +252,7 @@ header.masthead p {
   height: 100%;
   text-align: center;
   opacity: 0;
-  color: #fff;
+  color: green !important;
   background: rgba(240, 95, 64, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -308,4 +328,47 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover,.b6:hover,.b7:hover,.b8:hover{
+  font-size: 23px !important;
+}
+.p1{
+  color: black !important;
+}
+.regbtn{
+  background: none !important;
+  font-size: 30px !important;
+}
+.regbtn:hover{
+
+  background: none !important;
+  font-size: 34px !important;
+  transition: 0.8s !important;
+  border-radius: 3px !important;
+  outline-color: black !important;
+  border-width: thin !important;
+}
+
+.da-thumbs li {
+	float: left;
+	margin: 5px;
+	background: #fff;
+	padding: 8px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: rgba(75,75,75,0.7);
+	width: 100%;
+	height: 100%;
 }

@@ -1,6 +1,4 @@
-/* *********************************
-           Variables
-  ********************************** */
+
 $navbar-height: 50px;
 $big-logo-padding: 15px; // adjust these 2 values
 $small-logo-padding: 2px; // of bottom padding to look nice
@@ -57,7 +55,7 @@ ul.nav {
   ********************************** */
 .big-logo-row {
   background: gold;
-  
+
   .big-logo-container {
     padding-top: $navbar-height;
   }
