@@ -124,20 +124,12 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-<<<<<<< HEAD
   color: #212529;
-=======
-  color: white;
->>>>>>> 7facc4251571b115c0306084b278e02688fcac81
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-<<<<<<< HEAD
   color: #fff;
-=======
-  color: white;
->>>>>>> 7facc4251571b115c0306084b278e02688fcac81
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -157,24 +149,16 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-<<<<<<< HEAD
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fff;
-=======
-    color: white;
-  }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: white;
->>>>>>> 7facc4251571b115c0306084b278e02688fcac81
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-<<<<<<< HEAD
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -184,35 +168,16 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.5);
     background-color: #007BFF;
-=======
-    color: white;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: white;
-  }
-  #mainNav.navbar-shrink {
-    border-bottom: 1px solid #007BFF;
-    background-color:  #007BFF;
->>>>>>> 7facc4251571b115c0306084b278e02688fcac81
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: white;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-<<<<<<< HEAD
     color: #007BFF;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
-=======
-    color:white;
-  }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: white;
->>>>>>> 7facc4251571b115c0306084b278e02688fcac81
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -373,12 +338,11 @@ header.masthead p {
   color: black !important;
 }
 .regbtn{
-  /*background: none !important;*/
   font-size: 20px !important;
+  transition: 0.3s !important;
+  border-radius: 300px;
 }
 .regbtn:hover{
-
-  /*background: none !important;*/
   transition: 0.3s !important;
   border-radius: 3px !important;
   outline-color: black !important;
