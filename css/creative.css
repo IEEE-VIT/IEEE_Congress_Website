@@ -10,11 +10,11 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #007BFF;
 }
 
 hr.light {
-  border-color: #007BFF !important;
+  border-color: #3949ab !important;
 }
 
 a {
@@ -59,11 +59,11 @@ h6 {
 }
 
 .bg-dark {
-  background-color: #7007BFF !important;
+  background-color: #212529 !important;
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 section {
@@ -116,7 +116,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   font-size: 27px !important;
-  color:#007BFF  !important;
+  color:white  !important;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -124,17 +124,17 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #007BFF;
+  color: #212529;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #007BFF;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #007BFF !important;
+  color: #000 !important;
   background-color: transparent;
 }
 
@@ -149,35 +149,35 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: #007BFF;
+    color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #007BFF;
+    color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #007BFF;
+    color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #007BFF;
+    color: #fff;
   }
   #mainNav.navbar-shrink {
-    border-bottom: 1px solid #007BFF;
-    background-color: white;
+    border-bottom: 1px solid rgba(33, 37, 41, 0.5);
+    background-color: #007BFF;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #007BFF;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color:#007BFF;
+    color: #007BFF;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #007BFF;
+    color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -188,7 +188,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/bg1.jpg");
+  background-image: url("../img/bg.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -211,7 +211,8 @@ header.masthead p {
 
 @media (min-width: 768px) {
   header.masthead p {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
+    font-weight: 500;
   }
 }
 
@@ -253,7 +254,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: green !important;
-  background: rgba(240, 95, 64, 0.9);
+  background: #007BFF;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -302,11 +303,6 @@ header.masthead p {
 
 .text-primary {
   color: #007BFF !important;
-
-}
-.f1, .f2,.f3,.f4{
-  font-family: 'Pacifico', cursive;
-  font-size: 20px;
 }
 
 .btn {
@@ -322,17 +318,17 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #007BFF;
+  border-color: #007BFF;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #007bff !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem #007bff !important;
 }
 
 .b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover,.b6:hover,.b7:hover,.b8:hover{
@@ -342,21 +338,18 @@ header.masthead p {
   color: black !important;
 }
 .regbtn{
-  background: none !important;
-  font-size: 30px !important;
+  /*background: none !important;*/
+  font-size: 20px !important;
 }
 .regbtn:hover{
-  opacity: 0.8;
-  background-color: #007BFF !important;
+
+  /*background: none !important;*/
+  transition: 0.3s !important;
+  border-radius: 3px !important;
   outline-color: black !important;
-  font-size: 32px !important;
-  transition: 0.8s !important;
-  outline-color: black !important;
+  border-width: thin !important;
 }
 
-.c2{
-  background-color: linear-gradient(#007BFF, white, #007BFF) !important;
-}
 .da-thumbs li {
 	float: left;
 	margin: 5px;
