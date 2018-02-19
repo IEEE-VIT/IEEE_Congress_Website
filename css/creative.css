@@ -25,8 +25,9 @@
 
 }
 .techloopText{
-  font-family: 'Righteous', cursive;
+  font-family: 'Muli', sans-serif;
   text-align: center;
+  font-weight: 700;
   font-size: 40px;
   color: white;
   outline-color: black;
@@ -37,7 +38,7 @@
   transition: 0.8s;
 }
 .techloopText2{
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 20px;
   margin-left: 20%;
   margin-right: 20%;
@@ -46,7 +47,7 @@
 }
 
 .text2a{
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Muli', sans-serif;
   text-align: center;
   font-size: 40px;
 }
@@ -55,17 +56,18 @@
   background: none;
   border: none;
   text-align: center;
-  margin-top: 6%;
+  transform: translate(25%,0);
   padding: 30px;
-  margin-left: 2%;
+  margin: auto;
   border-radius: 20px;
-  font-family: 'Righteous', cursive;
+  font-family: 'Muli', sans-serif;
   font-size: 30px;
   color: black;
 }
 .c4:hover{
   font-size: 35px;
   transition:0.5s;
+  transform: translate(20%,0);
 }
 
 body,
@@ -121,7 +123,7 @@ h6 {
       background-size: cover;
 
 
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Muli', sans-serif;
   color: black !important;
   font-size: 20px;
   margin: 0;
