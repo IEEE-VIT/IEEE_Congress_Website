@@ -1,3 +1,8 @@
+.c2{
+  background: linear-gradient( #003399, #007BFF,white);
+}
+
+
 body,
 html {
   width: 100%;
@@ -399,7 +404,7 @@ header.masthead p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background: linear-gradient(to right, #003399, #007BFF,white);
   opacity: 0.3;
   overflow: hidden;
   width: 0;
