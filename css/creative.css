@@ -377,45 +377,47 @@ header.masthead p {
 	line-height: 20vh;
 	color:#333;
 	font-size: 28px;
-	font-family: 'Muli',sans-serif;
+
 	font-weight: 700;
 }
 
-.gallery{
-	/*height: 100vh;*/
-	position: relative;
-	width: 100%;
+.pic {
+  position: relative;
+  width: 8%;
 }
 
-.gallery-holder{
-	position: relative;
-	top: 20vh;
-	width:84vw;
-	/*height: 100vh;*/
-	max-height: 780px;
-	top: 0%;
-	left: 50%;
-	transform:translate(-50%,0%);
-	text-align: center;
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.gallery-col{
-	height: auto;
-	width: 27vw;
-	max-width: 250px;
-	max-height: 780px;
-	margin: 0.3vw;
-	display: inline-grid;
-	vertical-align: top;
+.overlay {
+  margin-left: 20%;
+  max-width:60%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  opacity: 0.3;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .8s ease;
 }
 
-.gallery-image{
-	width: 100%;
-	height: auto;
-	margin-top: 0.3vw;
-	margin-bottom: 0.3vw;
+.pic:hover .overlay {
+  width: 100%;
 }
 
-.m-gallery-holder{
-	display: none;
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
