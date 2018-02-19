@@ -66,6 +66,7 @@
   color: #fff;
 }
 .c4:hover{
+  border: none;
   font-size: 35px;
   transition:0.5s;
   transform: translate(20%,0);
