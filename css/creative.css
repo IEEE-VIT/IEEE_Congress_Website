@@ -1,5 +1,5 @@
 .c2{
-  background: linear-gradient( #003399, #007BFF,white);
+  background: linear-gradient( white, #007BFF,#003399);
 }
 .c3{
   width: 100%;
@@ -12,7 +12,38 @@
 #t2{
   color:#007BFF;
 }
+.techloop{
+  background-image: url("../img/bg2.jpg")	!important ;
+  /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  text-align: center;
 
+}
+.techloopText{
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  outline-color: black;
+  text-shadow: 5px 5px 15px #000000;
+}
+.techloopText:hover{
+  font-size: 45px;
+  transition: 0.8s;
+}
+.techloopText2{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+
+}
 
 body,
 html {
