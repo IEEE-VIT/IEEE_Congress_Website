@@ -1,9 +1,5 @@
 .c2{
-<<<<<<< HEAD
-  background: linear-gradient( #003399, #007BFF);
-=======
-  background: linear-gradient( white, #007BFF,#003399);
->>>>>>> 5ecc6882d73cc34ab71e4d8f711fdfb9649c0a48
+  background: linear-gradient( blue, #007BFF);
 }
 .c3{
   width: 100%;
