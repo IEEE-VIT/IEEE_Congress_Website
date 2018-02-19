@@ -1,6 +1,17 @@
 .c2{
   background: linear-gradient( #003399, #007BFF,white);
 }
+.c3{
+  width: 100%;
+  background-color: white;
+}
+.glp{
+  color: blue;
+}
+
+#t2{
+  color:#007BFF;
+}
 
 
 body,
