@@ -45,6 +45,29 @@
 
 }
 
+.text2a{
+    font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.c4{
+  background: none;
+  border: none;
+  text-align: center;
+  margin-top: 6%;
+  padding: 30px;
+  margin-left: 2%;
+  border-radius: 20px;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  color: black;
+}
+.c4:hover{
+  font-size: 35px;
+  transition:0.5s;
+}
+
 body,
 html {
   width: 100%;
