@@ -39,7 +39,7 @@
 
 }
 .techloopText{
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
@@ -52,7 +52,7 @@
   transition: 0.8s;
 }
 .techloopText2{
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   margin-left: 5%;
   margin-right: 5%;
@@ -61,7 +61,7 @@
 }
 
 .text2a{
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
   font-size: 40px;
@@ -76,7 +76,7 @@
   padding: 30px;
   margin: auto;
   border-radius: 20px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   color: #fff;
 }
@@ -86,6 +86,9 @@
   transition:0.5s;
   transform: translate(20%,0);
 }
+.c5{
+  font-family: 'Montserrat', sans-serif;
+}
 
 body,
 html {
@@ -93,7 +96,7 @@ html {
   height: 100%;
 }
 body {
-  font-family: 'Muli','Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr {
@@ -124,7 +127,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Muli', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .c1 {
@@ -140,7 +143,7 @@ h6 {
       background-size: cover;
 
 
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: black !important;
   font-size: 20px;
   margin: 0;
@@ -187,7 +190,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #007BFF;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -198,7 +201,7 @@ img::-moz-selection {
   font-size: 25px !important;
   text-transform: uppercase;
   color: white !important;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -358,7 +361,7 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -632,7 +635,7 @@ header.masthead p {
 
 body {
     background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
