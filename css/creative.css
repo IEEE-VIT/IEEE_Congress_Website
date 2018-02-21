@@ -23,10 +23,17 @@
   }
 }
 
+.sponsor{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 #t2{
   color:#007BFF;
 }
 .techloop{
+  margin: 4%;
+  border-radius: 10%;
   background-image: url("../img/bg2.jpg")	!important ;
   /* Set a specific height */
     min-height: 500px;
@@ -38,6 +45,22 @@
   text-align: center;
 
 }
+
+.techloop:hover{
+box-shadow: 5px 10px #111111;
+transform: scale(1.05);
+transition: 0.5s;
+
+}
+
+.techloopBTN:hover{
+  box-shadow: 1px 1px #444444;
+  background: linear-gradient(grey,white);
+  color: linear-gradient(white,black);
+  transform: 0.5x;
+
+}
+
 .techloopText{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -47,10 +70,8 @@
   outline-color: black;
   text-shadow: 5px 5px 15px #000000;
 }
-.techloopText:hover{
-  font-size: 45px;
-  transition: 0.8s;
-}
+
+
 .techloopText2{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -58,6 +79,38 @@
   margin-right: 5%;
   margin-top: 2%;
 
+}
+
+.hub{
+  margin: 4%;
+  border-radius: 10%;
+  background-image: url("../img/bg2.jpg")	!important ;
+  /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  text-align: center;
+}
+
+.hub:hover{
+box-shadow: 5px 10px #111111;
+transform: scale(1.03);
+transition: 0.5s;
+
+}
+
+.hubBTN:hover
+{
+  box-shadow: 1px 1px #444444;
+  background: linear-gradient(grey,white);
+
+}
+
+.hubtxt{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .text2a{
@@ -162,6 +215,9 @@ section {
 }
 .section-heading {
   margin-top: 0;
+}
+.sec5{
+  background: none;
 }
 
 
@@ -711,6 +767,16 @@ body {
     background-color: white;
     position: relative;
     border-radius: 6px;
+}
+
+.submit{
+  border-radius: 5px;
+}
+.submit:hover{
+  box-shadow: 1px 1px #444444;
+  background: linear-gradient(grey,white);
+  color: linear-gradient(white,black);
+
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
