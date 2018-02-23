@@ -765,16 +765,16 @@ body {
     border-radius: 6px;
 }
 
-.submit{
+.submit {
   border-radius: 5px;
+  background-color: #012681;
+  border-width: 0px;
+  padding: 10px 30px;
+  color:#fff;
 }
-.submit:hover{
-  box-shadow: 1px 1px #444444;
-  background: linear-gradient(grey,white);
-  color: linear-gradient(white,black);
-
+.submit:hover {
+  background-color: #011355;
 }
-
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media all and (max-width: 500px) {
   /*.containerr span {
