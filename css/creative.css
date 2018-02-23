@@ -1,8 +1,8 @@
 .c2{
-  background: linear-gradient(#007BFF);
+  background-color: #012681 !important;
 }
 .TLtrack{
-  background: #007bff;
+  background: #012681;
 }
 .c3{
   width: 100%;
@@ -10,7 +10,7 @@
 }
 
 .glp{
-  color: #007BFF;
+  color: #012681;
 }
 .c6{
   background: white;
@@ -29,11 +29,11 @@
 }
 
 #t2{
-  color:#007BFF;
+  color:#012681;
 }
 .techloop{
   margin: 4%;
-  border-radius: 10%;
+  border-radius: 8px;
   background-image: url("../img/bg2.jpg")	!important ;
   /* Set a specific height */
     min-height: 500px;
@@ -47,10 +47,8 @@
 }
 
 .techloop:hover{
-box-shadow: 5px 10px #111111;
 transform: scale(1.05);
 transition: 0.5s;
-
 }
 
 .techloopBTN:hover{
@@ -83,7 +81,7 @@ transition: 0.5s;
 
 .hub{
   margin: 4%;
-  border-radius: 10%;
+  border-radius: 8px;
   background-image: url("../img/bg2.jpg")	!important ;
   /* Set a specific height */
     min-height: 500px;
@@ -96,7 +94,6 @@ transition: 0.5s;
 }
 
 .hub:hover{
-box-shadow: 5px 10px #111111;
 transform: scale(1.03);
 transition: 0.5s;
 
@@ -155,7 +152,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #007BFF;
+  border-color: #012681;
 }
 
 hr.light {
@@ -171,7 +168,7 @@ a {
 }
 
 a:hover {
-  color: #007BFF;
+  color: #012681;
 }
 
 h1,
@@ -245,7 +242,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #007BFF;
+  background-color: #012681;
   font-family: 'Montserrat', sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -313,13 +310,13 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.5);
-    background-color: #007BFF;
+    background-color: #012681;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: white;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #007BFF;
+    color: #012681;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -400,7 +397,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: green !important;
-  background: #007BFF;
+  background: #012681;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -448,7 +445,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #007BFF !important;
+  color: #012681 !important;
 }
 
 .btn {
@@ -464,17 +461,17 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #007BFF;
-  border-color: #007BFF;
+  background-color: #012681;
+  border-color: #012681;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #007bff !important;
+  background-color: #012681 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem #007bff !important;
+  box-shadow: 0 0 0 0.2rem #012681 !important;
 }
 
 .b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover,.b6:hover,.b7:hover,.b8:hover{
@@ -552,7 +549,7 @@ header.masthead p {
   left: 0;
   right: 0;
   width: 100%;
-  background: linear-gradient(to right, #003399, #007BFF,white);
+  background: linear-gradient(to right, #003399, #012681,white);
   opacity: 0.3;
   overflow: hidden;
   width: 0;
@@ -671,7 +668,6 @@ header.masthead p {
   text-align: center;
   position: absolute;
   margin: auto;
-  width: 200px;
   height: 30px;
   line-height: 30px;
   left: 0;
@@ -690,7 +686,7 @@ header.masthead p {
 }
 
 body {
-    background-color: #474e5d;
+    background-color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -781,6 +777,23 @@ body {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media all and (max-width: 500px) {
+  /*.containerr span {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    line-height: 30px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: transform .5s ease, opacity .7s ease;
+    transition: transform .5s ease, opacity .7s ease;
+  }*/
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
