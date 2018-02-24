@@ -42,7 +42,7 @@
 }
 
 .carousel-item{
-	max-height: 300px;
+	max-height: 450px;
 }
 
 @media all and (max-width: 500px)
