@@ -19,26 +19,18 @@
 .c7{
   background-color: #012681;
   color: white;
-  text-align:center;
-  padding: 2%;
+  text-align:left;
+  padding: 25px;
   border-radius: 20px;
-  margin-top: 1%;
+  margin: 2% 0px;
+  max-width: 75%;
+  transform: translate(15%,0%);
 }
 
 .head2{
   font-size: 40px !important;
   font-family: 'Montserrat', sans-serif;
   color: black;
-  text-shadow: 2px 2px grey;
-}
-
-.c7:hover{
-  max-width: 90%;
-  transform: scale(1.06);
-  box-shadow:2px 2px 2px grey;
-  background: linear-gradient(white, grey);
-  transition: 0.8s;
-  cursor: pointer;
 }
 
 .carousel-item{
@@ -251,6 +243,7 @@ section {
 }
 .sec5{
   background: none;
+  padding-bottom: 10px;
 }
 
 
