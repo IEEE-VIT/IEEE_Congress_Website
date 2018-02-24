@@ -73,7 +73,7 @@ transition: 0.5s;
 
 .techloopText2{
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 2%;
@@ -214,6 +214,7 @@ section {
 }
 .section-heading {
   margin-top: 0;
+  margin-bottom: 20px;
 }
 .sec5{
   background: none;
@@ -483,6 +484,7 @@ header.masthead p {
 }
 .p1{
   color: black !important;
+  font-size: 16px !important;
 }
 .regbtn{
   font-size: 20px !important;
@@ -494,6 +496,9 @@ header.masthead p {
   border-radius: 3px !important;
   outline-color: black !important;
   border-width: thin !important;
+}
+.mb-4{
+  font-size:15px !important;
 }
 
 .da-thumbs li {
