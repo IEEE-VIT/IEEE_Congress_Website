@@ -41,6 +41,10 @@
   cursor: pointer;
 }
 
+.carousel-item{
+	max-height: 300px;
+}
+
 @media all and (max-width: 500px)
 {
   /* Adjust size of techloop logo*/
