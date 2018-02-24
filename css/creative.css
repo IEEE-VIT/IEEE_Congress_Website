@@ -9,14 +9,40 @@
   background-color: white;
 }
 
-.glp{
-  color: #012681;
+.gly{
+  color: #012681;h2
 }
 .c6{
   background: white;
 }
 
-@media all and (max-width: 500px) {
+.c7{
+  background-color: #012681;
+  color: white;
+  align:center;
+  padding: 2%;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+.head2{
+  font-size: 40px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-shadow: 2px 2px grey;
+}
+
+.c7:hover{
+  max-width: 90%;
+  transform: scale(1.06);
+  box-shadow:2px 2px 2px grey;
+  background: linear-gradient(white, grey);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+@media all and (max-width: 500px)
+{
   /* Adjust size of techloop logo*/
   .im2 {
     height: 50px;
@@ -50,6 +76,7 @@
 .techloop:hover{
 transform: scale(1.05);
 transition: 0.5s;
+box-shadow: 5px 5px grey;
 }
 
 .techloopBTN:hover{
@@ -96,6 +123,8 @@ transition: 0.5s;
 
 .hub:hover{
 transform: scale(1.03);
+box-shadow: 5px 5px grey;
+
 transition: 0.5s;
 
 }
@@ -778,6 +807,7 @@ body {
   background-color: #011355;
 }
 /* Media queries - Responsive timeline on screens less than 600px wide */
+
 @media all and (max-width: 500px) {
   /*.containerr span {
     color: #fff;
