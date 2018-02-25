@@ -47,14 +47,10 @@ a {
   text-decoration: none;
 }
 
-/* --------------------------------
-
-Main components
-
--------------------------------- */
 .logo{
   background-color: black;
   text-align: center;
+  padding: 10px;
 }
 .IEEElogo{
   height: 40px;
@@ -65,8 +61,8 @@ Main components
 header {
   font-family: "Montserrat",sans-serif  !important;
   position: relative;
-  height: 180px;
-  line-height: 180px;
+  height: 150px;
+  line-height: 150px;
   text-align: center;
   background-color: #012681;
 }
@@ -79,8 +75,8 @@ header h1 {
 }
 @media only screen and (min-width: 1024px) {
   header {
-    height: 240px;
-    line-height: 240px;
+    height: 150px;
+    line-height: 150px;
   }
   header h1 {
     font-size: 36px;
