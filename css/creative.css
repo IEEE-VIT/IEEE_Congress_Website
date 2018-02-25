@@ -148,11 +148,9 @@
 .techloop:hover{
 transform: scale(1.05);
 transition: 0.5s;
-box-shadow: 5px 5px grey;
 }
 
 .techloopBTN:hover{
-  box-shadow: 1px 1px #444444;
   background: linear-gradient(grey,white);
   color: linear-gradient(white,black);
   transform: 0.5x;
@@ -197,15 +195,11 @@ box-shadow: 5px 5px grey;
 
 .hub:hover{
 transform: scale(1.03);
-box-shadow: 5px 5px grey;
-
 transition: 0.5s;
-
 }
 
 .hubBTN:hover
 {
-  box-shadow: 1px 1px #444444;
   background: linear-gradient(grey,white);
 
 }
