@@ -1160,3 +1160,6 @@ td.text-right {
     height: 600px;
     overflow-y: auto;
 }
+.f1,.f2,.f3,.f4{
+  color: black !important;
+}
