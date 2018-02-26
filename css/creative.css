@@ -1152,3 +1152,11 @@ td.text-right {
     vertical-align:middle;
    }     
  }
+
+.modal-dialog{
+    overflow-y: initial !important;
+}
+.modal-body{
+    height: 600px;
+    overflow-y: auto;
+}
