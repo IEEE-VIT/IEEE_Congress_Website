@@ -164,8 +164,6 @@ transition: 0.5s;
 }
 
 .techloopBTN:hover{
-  background: linear-gradient(grey,white);
-  color: linear-gradient(white,black);
   transform: 0.5x;
 
 }
