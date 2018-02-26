@@ -330,6 +330,10 @@ img::-moz-selection {
   background: transparent;
 }
 
+.logo1{
+    height:35px;
+    width: auto;
+}
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #012681;
