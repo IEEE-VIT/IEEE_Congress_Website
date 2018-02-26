@@ -1,4 +1,22 @@
-.modI{
-    height: 40px;
-    width: auto;
+.modal1{
+    max-width: 750px;
+}
+.modal-header{
+    background: linear-gradient(to right, #012681,black);
+    color: white;
+}
+.close{
+    color: whitesmoke;
+}
+.close:hover{
+    color: floralwhite;
+}
+.B2{
+    max-width: 300px;
+    color: white;
+    font-family: "Montserrat" sans-serif;
+    background-color: #012681;
+}
+.B2:hover{
+    background-color: midnightblue;
 }

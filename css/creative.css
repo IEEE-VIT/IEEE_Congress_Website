@@ -369,7 +369,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  font-size: 27px !important;
+  font-size: 25px !important;
   color:white  !important;
 }
 
@@ -586,8 +586,8 @@ header.masthead p {
 }
 
 .b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover,.b6:hover,.b7:hover,.b8:hover{
-  font-size: 17px !important;
-  text-shadow: 2px 2px 4px #000000;
+  font-size: 14.5px !important;
+  text-shadow: 5px 5px 5px #000000;
 
 }
 .p1{
