@@ -576,13 +576,13 @@ header.masthead p {
 .regbtn{
   font-size: 20px !important;
   transition: 0.3s !important;
-  border-radius: 300px;
+    border-radius: 0px!important;
+
 }
 .regbtn:hover{
-  transition: 0.3s !important;
-  border-radius: 3px !important;
-  outline-color: black !important;
-  border-width: thin !important;
+    background-color: #040E59 !important;
+    transition: 0.3s !important;
+    border-radius: 0px!important;
 }
 .mb-4{
   font-size:15px !important;
