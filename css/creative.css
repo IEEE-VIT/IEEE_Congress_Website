@@ -1,5 +1,4 @@
 
-
 .loader {
   position: fixed;
   left: 0px;
@@ -8,6 +7,7 @@
   height: 100%;
   z-index: 9999;
   background: url('../img/loader.gif') 50% 50% no-repeat rgb(255,255,255);
+  background-size: 300px;
   opacity: 1;
 }
 
@@ -121,7 +121,10 @@
 .carousel-item{
 	max-height: 450px;
 }
-
+.im2 {
+  width: 100%;
+  max-width: 300px;
+}
 @media all and (max-width: 500px)
 {
   /* Adjust size of techloop logo*/
@@ -161,13 +164,12 @@ transition: 0.5s;
 }
 
 .techloopBTN:hover{
-  background: linear-gradient(grey,white);
-  color: linear-gradient(white,black);
   transform: 0.5x;
 
 }
 .TechloopTracks{
   padding-top: 0px;
+  padding-bottom:  20px;
 }
 .techloopText{
   font-family: 'Montserrat', sans-serif;
@@ -991,7 +993,12 @@ div.table-title {
  padding:5px;
  width: 100%;
 }
-
+.tthead{
+  font-size: 20px;
+}
+.conT{
+  font-size: 16px;
+}
 .table-title h3 {
   color: #fafafa;
   font-size: 30px;
@@ -1131,7 +1138,7 @@ td.text-right {
    }
    tr {
     border-top: 1px solid #C1C3D1;
-    border-bottom-: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
     color:#666B85;
     font-size:12px;
     font-weight:normal;
@@ -1156,7 +1163,7 @@ td.text-right {
     background:#1b1e24;
     border-bottom:4px solid #9ea7af;
     border-right: 1px solid #343a45;
-    font-size:18px;
+    font-size:16px;
     font-weight: 100;
     padding:12px;
     text-align:left;
