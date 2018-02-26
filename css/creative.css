@@ -941,6 +941,9 @@ body {
     left: 0%;
   }
 }
+.carousel-item{
+  max-height: 400px;
+}
 ul li{
   list-style: none;
   display: inline-block;
