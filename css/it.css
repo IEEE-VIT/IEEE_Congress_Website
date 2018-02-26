@@ -1,0 +1,23 @@
+section{
+    padding-top: 20px !important;
+}
+table{
+    margin: 10px  auto 50px auto;
+}
+p{
+    margin-bottom: 2px !important;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif; 
+}
+section{
+    text-align: center;
+}
+.strong{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif; 
+    margin-bottom: 15px;
+    display: block;
+}
+h1{
+    padding-top: 50px;;
+}
