@@ -18,6 +18,7 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/creative.css" rel="stylesheet">
+  <link href="css/formStyle.css" rel="stylesheet">
   <script type="text/javascript">
     $(window).on('load',function() {
         $(".loader").fadeOut(500);
@@ -77,7 +78,7 @@
         <div class="col-lg-8 mx-auto">
           <p class="text-faded">Vellore Institute Of Technology, Vellore</p>
           <p class="text-faded mb-5">25th- 28th March 2018</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger regbtn" href="https://goo.gl/forms/Um7Id1hvnxgH0sgi1">Register Now</a>
+          <a class="btn btn-primary btn-xl js-scroll-trigger regbtn"  href="#" id="register">Register Now</a>
         </div>
       </div>
     </div>
@@ -436,5 +437,116 @@
   <script src="js/creative.min.js"></script>
   <script src="js/codepen1.js"></script>
 </body>
+
+
+
+<div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" >
+
+          <h4><span class="glyphicon glyphicon-lock" ></span> Register</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="f1"  name="f1">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Full Name </label>
+              <input type="text" class="form-control" id="f2"  name="f2">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Institute Name:</label>
+              <input type="text" class="form-control" id="f3" name="f3">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Contact Number </label>
+              <input type="number" class="form-control" id="f4" name="f4">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Which IEEE Section are you a part of (if any)</label>
+              <input type="text" class="form-control" id="f5" name="f5">
+            </div>
+            <div class="form-group">
+            <label for="f6">Are you an IEEE paid member?</label><br>
+              <div class="radio">
+                <label><input type="radio" name="f6" id="f6">YES</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="f6" id="f6">NO</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="f7">If yes, provide your Membership Number:</label>
+              <input type="text" class="form-control" id="f7" name="f7">
+            </div>
+            <div class="form-group">
+              <label for="f8">Please mention if you have participated or volunteered for any IEEE events</label>
+              <input type="text" class="form-control" id="f8" name="f8">
+            </div>
+
+          <div class="form-group">
+            <label for="f9a" ><label for="f9b" ><label for="f9c" >What are you attending the Congress as?</label></label></label>
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="f9a"> STUDENT
+            </label><br>
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="f9b"> YOUNG PROFESSIONAL
+            </label><br>
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="f9c"> PROFESSIONAL
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="f10a"><label for="f10b"><label for="f10c"><label for="f10d">Which event/s are you interested in attending? </label></label></label></label>
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="f10a"> Techloop: Android Application Development
+            </label><br>
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="f10b"> Techloop:Internet of Things
+            </label><br>
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="f10c"> Techloop: Machine Learning
+            </label><br>
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" id="f10d"> Hub Congress
+            </label>
+          </div>
+         <div class="form-group">
+            <label for="f11">Which upcoming technical transformation will have a major impact in the near future? (max 200 words)</label>
+            <input type="text" class="form-control" id="f11" name="f11">
+          </div>
+        <div class="form-group">
+          <label for="f12">Why would you like to attend IEEE VIT Hub Congress? (max 200 words)</label>
+          <textarea class="form-control" rows="7" id="f12"></textarea>
+        </div>
+
+            <button type="submit" class="btn B2 btn-block"><span class="glyphicon glyphicon-off"></span> REGISTER ME</button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+$("#register").click(function(){
+$("#myModal").modal();
+});
+});
+</script>
 
 </html>
