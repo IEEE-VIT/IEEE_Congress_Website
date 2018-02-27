@@ -82,11 +82,11 @@
   padding-bottom: 20px;
 }
 .c2{
-  background-color: #012681 !important;
+  background-color: #112F5E !important;
   text-align: justify;
 }
 .TLtrack{
-  background: #012681;
+  background: #112F5E;
 }
 .contacticons{
   padding-top: 40px;
@@ -99,7 +99,7 @@
 }
 
 .gly{
-  color: #012681;
+  color: #112F5E;
 }
 .c6{
   background: white;
@@ -109,7 +109,7 @@
   padding-bottom:0px;
 }
 .c7{
-  background-color: #012681;
+  background-color: #112F5E;
   color: white;
     margin:3%;
   text-align:left;
@@ -149,7 +149,7 @@
 }
 
 #t2{
-  color:#012681;
+  color:#112F5E;
 }
 .techloopLogo3{
     height:100px;
@@ -162,7 +162,7 @@
   margin: 4%;
     padding:3%;
   border-radius: 8px;
-  background-color: #012681;
+  background-color: #112F5E;
   color: white;
   text-align: center;
 
@@ -207,7 +207,7 @@ transition: 0.5s;
   margin: 4%;
     padding: 3%;
   border-radius: 8px;
-  background-color: #012681;
+  background-color: #112F5E;
 }
 
 .hub:hover{
@@ -271,7 +271,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #012681;
+  border-color: #112F5E;
 }
 
 hr.light {
@@ -287,7 +287,7 @@ a {
 }
 
 a:hover {
-  color: #012681;
+  color: #112F5E;
 }
 
 h1,
@@ -352,7 +352,7 @@ img::-moz-selection {
 }
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #012681;
+  background-color: #112F5E;
   font-family: 'Montserrat', sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -399,7 +399,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: #012681 !important;
+    background-color: #112F5E !important;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -420,13 +420,13 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.5);
-    background-color: #012681;
+    background-color: #112F5E;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: white;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #012681;
+    color: #112F5E;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -507,7 +507,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: green !important;
-  background: #012681;
+  background: #112F5E;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -555,7 +555,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #012681 !important;
+  color: #112F5E !important;
 }
 
 .btn {
@@ -571,17 +571,17 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #012681;
-  border-color: #012681;
+  background-color: #112F5E;
+  border-color: #112F5E;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #012681 !important;
+  background-color: #112F5E !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem #012681 !important;
+  box-shadow: 0 0 0 0.2rem #112F5E !important;
 }
 
 .b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover,.b6:hover,.b7:hover,.b8:hover{
@@ -663,7 +663,7 @@ header.masthead p {
   left: 0;
   right: 0;
   width: 100%;
-  background: linear-gradient(to right, #003399, #012681,white);
+  background: linear-gradient(to right, #003399, #112F5E,white);
   opacity: 0.3;
   overflow: hidden;
   width: 0;
@@ -880,7 +880,7 @@ body {
 
 .submit {
   border-radius: 5px;
-  background-color: #012681;
+  background-color: #112F5E;
   border-width: 0px;
   padding: 10px 30px;
   color:#fff;
@@ -955,7 +955,7 @@ ul li{
   list-style: none;
 }
 #footer{
-  background:#012681;
+  background:#112F5E;
   padding-top: 10px;
   padding-bottom: 7px;
 }
@@ -1054,7 +1054,7 @@ tr {
 }
 
 tr:hover td {
- background:#012681;
+ background:#112F5E;
  color:#FFFFFF;
  border-top: 1px solid #22262e;
 }
@@ -1072,7 +1072,7 @@ tr:nth-child(odd) td {
 }
 
 tr:nth-child(odd):hover td {
- background:#012681;
+ background:#112F5E;
 }
 
 tr:last-child td:first-child {
