@@ -79,7 +79,7 @@
   padding-bottom: 20px;
 }
 .c2{
-  background-color: #012681 !important;
+  background: url("../img/bg.png")  !important;
   text-align: justify;
 }
 .TLtrack{
@@ -106,7 +106,7 @@
   padding-bottom:0px;
 }
 .c7{
-  background-color: #012681;
+  background: url("../img/bg.png")  !important;
   color: white;
     margin:3%;
   text-align:left;
@@ -159,14 +159,16 @@
   margin: 4%;
     padding:3%;
   border-radius: 8px;
-  background-color: #012681;
+  background: url("../img/bg.png") !important;
+  /*background-size: 100px !important;
+  background-repeat: repeat;*/
   color: white;
   text-align: center;
 
 }
 
 .techloop:hover{
-    background-color: darkblue;
+  background-color: darkblue;
 transform: scale(1.05);
 transition: 0.5s;
 }
@@ -204,7 +206,7 @@ transition: 0.5s;
   margin: 4%;
     padding: 3%;
   border-radius: 8px;
-  background-color: #012681;
+  background: url("../img/bg.png") !important;
 }
 
 .hub:hover{
