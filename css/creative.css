@@ -354,7 +354,7 @@ img::-moz-selection {
 }
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #0C398F;
+  background-image: url(../img/bg.png);
   font-family: 'Montserrat', sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -401,7 +401,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: #0C398F !important;
+    background-image: url(../img/bg.png) !important;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -573,8 +573,7 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #0C398F;
-  border-color: #0C398F;
+  background-image: url(../img/bg.png);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -945,7 +944,7 @@ ul li{
   list-style: none;
 }
 #footer{
-  background:#0C398F;
+  background-image: url(../img/bg.png);
   padding-top: 10px;
   padding-bottom: 7px;
 }
