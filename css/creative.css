@@ -1,4 +1,7 @@
-
+.topfa{
+  padding-right: 5px;
+  opacity: 0.8;
+}
 .loader {
   position: fixed;
   left: 0px;
