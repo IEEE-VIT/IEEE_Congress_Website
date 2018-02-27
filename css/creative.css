@@ -344,7 +344,8 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
+  opacity:.9;
 }
 
 section {
@@ -480,7 +481,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bgr1.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1017,7 +1018,7 @@ div.table-title {
  width: 100%;
 }
 .tthead{
-  font-size: 20px;
+  font-size: 26px;
 }
 .conT{
   font-size: 16px;
