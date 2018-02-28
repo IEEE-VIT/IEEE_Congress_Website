@@ -2,7 +2,7 @@
     max-width: 750px;
 }
 .modal-header{
-    background: linear-gradient(to right, #012681,black);
+    background: url("../img/bg.png")  !important;
     color: white;
 }
 .close{
