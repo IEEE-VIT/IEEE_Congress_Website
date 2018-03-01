@@ -1,0 +1,104 @@
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/loader.gif') 50% 50% no-repeat rgb(255,255,255);
+    background-size: 300px;
+    opacity: 1;
+}
+
+#bodypg{
+    background: url('../img/bg.png');
+    background-size:cover;
+}
+
+
+.I1 {
+    margin-top: 30px;
+    height: 60px;
+    width: auto;
+}
+
+.c1{
+
+    margin-top:120px;
+    text-align: center;
+}
+.c4{
+    color: white;
+    margin-top:120px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    text-align: center;background:rgba(0,0,102,0.3);
+    box-shadow: 2px 2px 4px black;
+
+}
+.c2{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+#button1{
+    text-align: center;
+}
+.B1{
+    margin-top: 100px;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    background:transparent;
+    border-color: white;
+
+}
+.B1:hover{
+    background:rgba(0,0,102,0.3);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+
+#particles-js canvas{
+    z-index: -1;
+    margin-top: -600px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@media only screen
+and (max-device-width : 780px)
+    and (min-device-width: 500px)
+{
+    .c1,.c4{
+        max-width: 16%;
+        font-size:1.7rem;
+    }
+
+    .c2{
+        max-width: 16%;
+        font-size:1.6rem;
+    }
+
+}
+@media only screen
+and (max-device-width : 500px)
+{
+
+    .c1,.c4{
+        max-width: 16%;
+        font-size:1.3rem;
+    }
+
+    .c2{
+        max-width: 16%;
+        font-size:1.1rem;
+    }
+
+}
+
