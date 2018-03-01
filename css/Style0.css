@@ -12,23 +12,37 @@
 
 #bodypg{
     background: url('../img/bg.png');
+    ba-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     background-size:cover;
 }
 
 
 .I1 {
     margin-top: 30px;
-    height: 60px;
+    height: 90px;
     width: auto;
-    filter: invert(100%);
 }
 
-.c1{
+.c1,.c4{
     color: white;
     margin-top:120px;
     font-family: "Montserrat", sans-serif;
     font-size: 100px;
     text-align: center;
+
+}
+.c4{
+
+    background:rgba(0,0,102,0.3);
+    margin-top: 150px !important;
+    margin-left:2px;
+    margin-right:4px;
+    border-radius:5px 80px 5px;
+
 }
 .c2{
     color: white;

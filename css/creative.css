@@ -265,6 +265,10 @@ transition: 0.5s;
     text-align: justify;
     color: #fff;
 }
+.hubhead{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .text2a{
   font-family: 'Montserrat', sans-serif;
