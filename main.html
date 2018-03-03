@@ -392,49 +392,49 @@
 
         </div>
         <div class="modal-body" style="padding:40px 50px;">
-          <form role="form">
+          <form role="form" action="http://congress-backend.herokuapp.com/authenticate/reguser" method="post">
 
             <div class="form-group">
               <label for="f1"><b>Email:</b></label>
-              <input type="email" class="form-control" id="f1"  name="f1">
+              <input type="email" class="form-control" id="f1"  name="email">
             </div>
             <br>
             <div class="form-group">
               <label for="f2"><b>Full Name</b> </label>
-              <input type="text" class="form-control" id="f2"  name="f2">
+              <input type="text" class="form-control" id="f2"  name="username">
             </div>
             <br>
             <div class="form-group">
               <label for="f3"><b>Institute Name:</b></label>
-              <input type="text" class="form-control" id="f3" name="f3">
+              <input type="text" class="form-control" id="f3" name="institute">
             </div>
             <br>
             <div class="form-group">
               <label for="f4"><b>Contact Number</b> </label>
-              <input type="number" class="form-control" id="f4" name="f4">
+              <input type="number" class="form-control" id="f4" name="phonenum">
             </div>
             <br>
             <div class="form-group">
               <label for="f5"><b>Which IEEE Section are you a part of (if any)</b></label>
-              <input type="text" class="form-control" id="f5" name="f5">
+              <input type="text" class="form-control" id="f5" name="section">
             </div>
             <br>
             <div class="form-group">
               <label for="f6"><b>Are you an IEEE paid member?</b></label><br>
               <div class="radio">
-                <label><input type="radio" name="f6" id="f6"> YES</label>
+                <label><input type="radio" name="paid_mem" id="f6" value="true"> YES</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="f6" id="f6"> NO</label>
+                <label><input type="radio" name="paid_mem" id="f6" value="false"> NO</label>
               </div>
             </div>
             <br>
             <div class="form-group">
               <label for="f7"><b>What are you attending the Congress as?</b></label></label></label><br>
-            <input class="form-check-input" type="checkbox" id="f9a"> STUDENT
+            <input class="form-check-input" type="checkbox" id="f9a" name="attending_As"> STUDENT
             <br>
-              <input class="form-check-input" type="checkbox" id="f9b"> YOUNG PROFESSIONAL<br>
-              <input class="form-check-input" type="checkbox" id="f9c"> PROFESSIONAL    <br><br>
+              <input class="form-check-input" type="checkbox" id="f9b" name="attending_As"> YOUNG PROFESSIONAL<br>
+              <input class="form-check-input" type="checkbox" id="f9c" name="attending_As"> PROFESSIONAL    <br><br>
 
 
           </div>
@@ -442,31 +442,31 @@
           <div class="form-group">
             <label for="f10a"><label for="f10b"><label for="f10c"><label for="f10d"><b>Which event/s are you interested in attending?</b> </label></label></label></label>
             <label class="form-check-label">
-              <input class="form-check-input" type="checkbox" id="f10a"> Techloop: Android Application Development
+              <input class="form-check-input" type="checkbox" id="f10a" name="interested_in"> Techloop: Android Application Development
             </label><br>
             <label class="form-check-label">
-              <input class="form-check-input" type="checkbox" id="f10b"> Techloop:Internet of Things
+              <input class="form-check-input" type="checkbox" id="f10b" name="interested_in"> Techloop:Internet of Things
             </label><br>
             <label class="form-check-label">
-              <input class="form-check-input" type="checkbox" id="f10c"> Techloop: Machine Learning
+              <input class="form-check-input" type="checkbox" id="f10c" name="interested_in"> Techloop: Machine Learning
             </label><br>
             <label class="form-check-label">
-              <input class="form-check-input" type="checkbox" id="f10d"> Hub Congress
+              <input class="form-check-input" type="checkbox" id="f10d" name="interested_in"> Hub Congress
             </label>
           </div>
             <br>
          <div class="form-group">
            <label for="f11"><b>Which upcoming technical transformation will have a major impact in the near future? (max 200 words)</b></label>
-           <textarea class="form-control" rows="7" id="f11"></textarea>
+           <textarea class="form-control" rows="7" id="f11" name="bansw_1"></textarea>
           </div>
             <br>
         <div class="form-group">
           <label for="f12"><b>Why would you like to attend IEEE VIT Hub Congress? (max 200 words)</b></label>
-          <textarea class="form-control" rows="7" id="f12"></textarea>
+          <textarea class="form-control" rows="7" id="f12" name="bansw_2"></textarea>
         </div>
             <br>
 
-            <div class="butn" align="middle"><button type="submit" class="btn B2 btn-block"><span class="glyphicon glyphicon-off"></span> REGISTER ME</button></div>
+            <div class="butn" align="middle"><button type="submit" class="btn B2 btn-block"  value="submit"><span class="glyphicon glyphicon-off"></span> REGISTER ME</button></div>
           </form>
         </div>
 
