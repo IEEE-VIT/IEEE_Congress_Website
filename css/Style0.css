@@ -20,8 +20,7 @@
 
 .I1 {
     margin-top: 30px;
-    height: 60px;
-    width: auto;
+    width: 25vw;
 }
 
 .c1{
@@ -110,7 +109,14 @@
     .MLogo{
         width: 60vw;        
     }
-
+}
+@media (max-width:750px)
+{
+    
+    .I1 {
+        margin-top: 30px;
+        width: 40vw;
+    }    
 }
 .ctr{
     text-align: center;
