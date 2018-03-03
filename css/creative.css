@@ -177,13 +177,14 @@
 .im2 {
   width: 100%;
   max-width: 300px;
+  padding: 20px;
 }
 @media all and (max-width: 500px)
 {
   /* Adjust size of techloop logo*/
   .im2 {
-    height: 50px;
-    width: 200px;
+    width: 275px;
+    padding: 20px
   }
 }
 
