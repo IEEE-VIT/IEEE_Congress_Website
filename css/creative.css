@@ -9,8 +9,8 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url('../img/loader.gif') 50% 50% no-repeat rgb(255,255,255);
-  background-size: 300px;
+  background: url('../img/try.gif') 50% 50% no-repeat rgb(255,255,255);
+  background-size: 100px;
   opacity: 1;
 }
 .MainLogo{
@@ -20,7 +20,8 @@
 .logo5, .logo6{
   height:70px;
   width:auto;
-  margin-left: 30%;
+  margin: auto;
+  display: block;
 }
 .toptitletextthing{
   font-size: 20px;
@@ -176,13 +177,14 @@
 .im2 {
   width: 100%;
   max-width: 300px;
+  padding: 20px;
 }
 @media all and (max-width: 500px)
 {
   /* Adjust size of techloop logo*/
   .im2 {
-    height: 50px;
-    width: 200px;
+    width: 275px;
+    padding: 20px
   }
 }
 
@@ -490,7 +492,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/bgr1.png");
+  background-image: url("../img/bgr11.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
