@@ -9,8 +9,8 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url('../img/loader.gif') 50% 50% no-repeat rgb(255,255,255);
-  background-size: 300px;
+  background: url('../img/try.gif') 50% 50% no-repeat rgb(255,255,255);
+  background-size: 100px;
   opacity: 1;
 }
 .MainLogo{
@@ -485,7 +485,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/bgr1.png");
+  background-image: url("../img/bgr11.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
