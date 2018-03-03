@@ -20,7 +20,8 @@
 .logo5, .logo6{
   height:70px;
   width:auto;
-  margin-left: 30%;
+  margin: auto;
+  display: block;
 }
 .toptitletextthing{
   font-size: 20px;
