@@ -17,6 +17,11 @@
     height: 15vw;
     width:auto;
 }
+.logo5, .logo6{
+  height:70px;
+  width:auto;
+  margin-left: 30%;
+}
 .toptitletextthing{
   font-size: 20px;
 }
