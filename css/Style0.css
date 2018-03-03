@@ -11,8 +11,9 @@
 }
 
 #bodypg{
-    background: url('../img/bg.png');
+    background: url('../img/bg.png') no-repeat;
     background-size:cover;
+    min-height: 100%;
 }
 
 
@@ -38,6 +39,7 @@
 
 }
 .c2{
+    margin 2px;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
