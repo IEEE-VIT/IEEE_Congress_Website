@@ -1,3 +1,7 @@
+.MLogo{
+    width: 40vw;
+    margin-top: 5vh;
+}
 .loader {
     position: fixed;
     left: 0px;
@@ -6,7 +10,7 @@
     height: 100%;
     z-index: 9999;
     background: url('../img/try.gif') 50% 50% no-repeat rgb(255,255,255);
-    background-size: 150px;
+    background-size: 100px;
     opacity: 1;
 }
 
@@ -70,9 +74,9 @@
     z-index: -1;
 }
 
-@media only screen
-and (max-device-width : 780px)
-    and (min-device-width: 500px)
+@media
+(max-width : 780px)
+    and (min-width: 500px)
 {
     .c1,.c4{
         max-width: 16%;
@@ -83,10 +87,12 @@ and (max-device-width : 780px)
         max-width: 16%;
         font-size:1.6rem;
     }
+    .MLogo{
+        width: 60vw;        
+    }
 
 }
-@media only screen
-and (max-device-width : 500px)
+@media (max-width : 500px)
 {
 
     .c1,.c4{
@@ -98,6 +104,12 @@ and (max-device-width : 500px)
         max-width: 16%;
         font-size:1.1rem;
     }
+    .MLogo{
+        width: 60vw;        
+    }
 
+}
+.ctr{
+    text-align: center;
 }
 
