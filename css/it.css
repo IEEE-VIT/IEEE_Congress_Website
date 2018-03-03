@@ -1,5 +1,5 @@
 .spacingfixer{
-    min-width: 55vw;
+    min-width: 40vw;
 }
 .spacer{
     width: 70%;
@@ -63,6 +63,9 @@ header {
       font-size: 30px;
       font-size: 2.25rem;
       font-weight: 300;
+    }
+    .spacingfixer{
+        min-width: 25vw;
     }
   }
   
