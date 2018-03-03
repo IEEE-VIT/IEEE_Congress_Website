@@ -1,4 +1,6 @@
-.MLogo{
+html body{
+    overflow-y: 
+}.MLogo{
     width: 40vw;
     margin-top: 5vh;
 }
@@ -26,14 +28,14 @@
 
 .c1{
 
-    margin-top:120px;
+    margin-top:5vh;
     text-align: center;
 }
 .c4{
     color: white;
-    margin-top:120px;
+    margin-top:5vh;
     font-family: "Montserrat", sans-serif;
-    font-size: 100px;
+    font-size: 75px;
     text-align: center;
     background:rgba(0,0,102,0.3);
     box-shadow: 2px 2px 4px black;
@@ -50,7 +52,7 @@
     text-align: center;
 }
 .B1{
-    margin-top: 100px;
+    margin-top: 2vh;
     color:white;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
