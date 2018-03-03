@@ -125,7 +125,7 @@
   padding-bottom: 20px;
 }
 .c2{
-  background: url("../img/bg.png")  !important;
+  background: url("../img/bgr.jpg")  !important;
   text-align: justify;
 }
 .TLtrack{
@@ -164,7 +164,7 @@
   padding-bottom:0px;
 }
 .c7{
-  background: url("../img/bg.png")  !important;
+  background: url("../img/bgr.jpg")  !important;
     color: white;
     text-align: left;
     padding: 25px;
@@ -208,7 +208,7 @@
   margin: 4%;
     padding:3%;
   border-radius: 8px;
-  background: url("../img/bg.png")  !important;
+  background: url("../img/bgr.jpg")  !important;
   color: black;
   text-align: center;
 
@@ -252,7 +252,7 @@ transition: 0.5s;
   margin: 4%;
     padding: 3%;
   border-radius: 8px;
-  background: url("../img/bg.png")  !important;
+  background: url("../img/bgr.jpg")  !important;
 }
 
 .hub:hover{
@@ -403,7 +403,7 @@ img::-moz-selection {
 }
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-image: url(../img/bg.png);
+  background-image: url(../img/bgr.jpg);
   font-family: 'Montserrat', sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -450,7 +450,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-image: url(../img/bg.png) !important;
+    background-image: url(../img/bgr.jpg) !important;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -622,7 +622,7 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-image: url(../img/bg.png);
+  background-image: url(../img/bgr.jpg);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -993,7 +993,7 @@ ul li{
   list-style: none;
 }
 #footer{
-  background-image: url(../img/bg.png);
+  background-image: url(../img/bgr.jpg);
   padding-top: 10px;
   padding-bottom: 7px;
 }
