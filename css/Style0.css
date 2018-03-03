@@ -1,6 +1,4 @@
-html body{
-    overflow-y: 
-}.MLogo{
+.MLogo{
     width: 40vw;
     margin-top: 5vh;
 }
@@ -39,6 +37,9 @@ html body{
     text-align: center;
     background:rgba(0,0,102,0.3);
     box-shadow: 2px 2px 4px black;
+    max-width: 16%;
+    margin-left: 1vw;
+    margin-right: 1vw;
 
 }
 .c2{
