@@ -1,5 +1,5 @@
 .MLogo{
-    width: 40vw;
+    width: 40px;
     margin-top: 5vh;
 }
 .loader {
@@ -22,7 +22,7 @@
 
 .I1 {
     margin-top: 30px;
-    width: 25vw;
+    width:10px !important;
 }
 
 .c1{
@@ -49,6 +49,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
     text-align: center;
+    margin-left: 1vw;
 }
 
 #button1{
@@ -72,8 +73,8 @@
 
 #particles-js canvas{
     z-index: -1;
-    margin-top: -600px;
-    position: relative;
+    margin-top: -700px;
+    position: absolute;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -93,24 +94,46 @@
         font-size:1.6rem;
     }
     .MLogo{
+        margin-top: 100px;
         width: 60vw;        
     }
 
-}
+    #particles-js canvas{
+        height: 100% !important;
+        z-index: -1;}
+
+
+    }
 @media (max-width : 500px)
 {
 
     .c1,.c4{
+        margin-top: 100px;
         max-width: 16%;
         font-size:1.3rem;
     }
+    .MLogo{
+        margin-top: 50px;
+        width: 60vw;
+    }
 
     .c2{
-        max-width: 16%;
+        z-index: -1;
+        margin-top: -100px;
+        max-width: 15%;
         font-size:1.1rem;
+        margin-right:1vw;
     }
     .MLogo{
         width: 60vw;        
+    }
+    #button1{
+        margin-top: 160px;
+
+    }
+    #particle-js canvas{
+        z-index: -1;
+        height: 100%;
     }
 }
 @media (max-width:750px)
