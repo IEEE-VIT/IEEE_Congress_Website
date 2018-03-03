@@ -1,5 +1,5 @@
 .MLogo{
-    width: 40vw;
+    width: 30vw;
     margin-top: 5vh;
 }
 .loader {
@@ -20,6 +20,10 @@
     background: url('../img/bgr.jpg') no-repeat;
 }
 
+.c5{
+    overflow: hidden;
+}
+
 .I1 {
     margin-top: 30px;
     width: 25vw;
@@ -31,16 +35,15 @@
     text-align: center;
 }
 .c4{
+
     color: white;
-    margin-top:5vh;
+    margin-top:11vh;
     font-family: "Montserrat", sans-serif;
     font-size: 75px;
     text-align: center;
     background:rgba(0,0,102,0.3);
     box-shadow: 2px 2px 4px black;
     max-width: 16%;
-    margin-left: 1vw;
-    margin-right: 1vw;
 
 }
 .c2{
@@ -49,7 +52,6 @@
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
     text-align: center;
-    margin-left: 1vw;
 }
 
 #button1{
@@ -75,9 +77,9 @@
     z-index: -1;
     margin-top: -700px;
     position: absolute;
-    width: 100%;
+    overflow-x: hidden !important;
     height: 100%;
-    z-index: -1;
+    max-width:97%;
 }
 
 @media
@@ -99,7 +101,7 @@
     }
 
     #particles-js canvas{
-        height: 100% !important;
+        height: 300% !important;
         z-index: -1;}
 
 
@@ -108,7 +110,7 @@
 {
 
     .c1,.c4{
-        margin-top: 100px;
+        margin-top: 120px;
         max-width: 16%;
         font-size:1.3rem;
     }
@@ -119,21 +121,21 @@
 
     .c2{
         z-index: -1;
-        margin-top: -100px;
         max-width: 15%;
         font-size:1.1rem;
-        margin-right:1vw;
     }
     .MLogo{
         width: 60vw;        
     }
     #button1{
-        margin-top: 85px;
+        margin-top: 125px;
 
     }
     #particle-js canvas{
         z-index: -1;
-        height: 100%;
+        height: 300% !important;
+        max-width:85%;
+
     }
 }
 @media (max-width:750px)
