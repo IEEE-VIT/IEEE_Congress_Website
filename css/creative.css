@@ -271,6 +271,7 @@ transition: 0.5s;
   font-family: 'Montserrat', sans-serif;
     text-align: justify;
     color: #fff;
+    padding:3%;
 }
 .hubhead{
   text-align: center;
